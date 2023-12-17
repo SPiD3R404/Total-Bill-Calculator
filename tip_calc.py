@@ -26,4 +26,4 @@ def calc_tip(b, t, s):
 print("Welcome to the Tip Calculator.")
 print("----------------------------------------------------------------")
 bill, tip, spl = get_tip_info()
-print(f"[+] Total bill per person: {round(calc_tip(float(bill), float(tip), float(spl)), 2)}")
+print("[+] Total bill per person: {:.2f}".format(round(calc_tip(float(bill), float(tip), float(spl)), 2)))
